@@ -2,4 +2,4 @@ __pycache__/
 *.pyc
 .pytest_cache/
 
- # Ignore Python cache and pytest files
+# Ignore Python cache and pytest files
