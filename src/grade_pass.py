@@ -6,4 +6,4 @@ def has_passed(score):
     if not 0 <= score <= 100:
         raise ValueError("argument outside permitted range")
 
-    return score >= 50
+    return score > 50
