@@ -89,4 +89,3 @@ def test_second_mark_above_range():
         calculate_average(50, 101)
 
 
-# Demo: Changes to test files trigger GitHub Actions.
