@@ -5,7 +5,7 @@ import pytest
 
 sys.path.insert(0, str(Path(__file__).resolve().parents[1] / "src"))
 
-from grade_average import calculate_average
+from src.grade_average import calculate_average
 
 
 # Test valid inputs

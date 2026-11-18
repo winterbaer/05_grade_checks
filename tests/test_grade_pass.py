@@ -5,7 +5,7 @@ import pytest
 
 sys.path.insert(0, str(Path(__file__).resolve().parents[1] / "src"))
 
-from grade_pass import has_passed
+from src.grade_pass import has_passed
 
 
 # Test valid inputs
