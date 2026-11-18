@@ -1,4 +1,3 @@
-
 import sys
 from pathlib import Path
 import pytest
@@ -67,6 +66,11 @@ def test_invalid_first_mark_float():
         calculate_average(50.5, 60)
 
 
+def test_invalid_second_mark_float():
+    with pytest.raises(TypeError):
+        calculate_average(50, 50.5)
+
+
 # Test marks outside permitted range
 
 def test_first_mark_below_range():
@@ -87,5 +91,3 @@ def test_second_mark_below_range():
 def test_second_mark_above_range():
     with pytest.raises(ValueError):
         calculate_average(50, 101)
-
-

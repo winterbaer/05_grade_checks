@@ -1,4 +1,3 @@
-
 name: Grade Checking System Tests
 
 on:
@@ -15,6 +14,8 @@ on:
       - 'src/**'
       - 'tests/**'
       - '.github/workflows/**'
+
+  workflow_dispatch:
 
 concurrency:
   group: grade-checks-${{ github.workflow }}-${{ github.ref }}
