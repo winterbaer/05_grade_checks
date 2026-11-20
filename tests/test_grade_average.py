@@ -7,7 +7,7 @@ sys.path.insert(0, str(Path(__file__).resolve().parents[1] / "src"))
 from src.grade_average import calculate_average
 
 
-# Test valid inputs w
+# Test valid inputs 
 
 def test_average_normal_marks():
     assert calculate_average(50, 60) == 55.0
