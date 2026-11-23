@@ -93,3 +93,6 @@ def test_second_mark_below_range():
 def test_second_mark_above_range():
     with pytest.raises(ValueError):
         calculate_average(50, 101)
+
+
+#t
